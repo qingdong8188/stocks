@@ -1,0 +1,92 @@
+// ===== Define font face =====
+
+@font-face {
+    font-family: 'html5-ProximaNova';
+    font-weight: bold;
+    font-style: normal;
+    //src: url('fonts/proximanova/2AECBA_0_0.eot');
+    //src: url('fonts/proximanova/2AECBA_0_0.eot?#iefix') format('embedded-opentype'),
+    //     url('fonts/proximanova/2AECBA_0_0.woff') format('woff'),
+    //     url('fonts/proximanova/2AECBA_0_0.ttf') format('truetype');
+    src:  url('fonts/proximanova/2AECBA_0_0.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'html5-ProximaNova';
+    font-weight: normal;
+    font-style: normal;
+    src: url('fonts/proximanova/2AECBA_1_0.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'html5-ProximaNovaSemibold';
+    font-weight:  Semibold;
+    font-style: normal;
+    src: url('fonts/proximanova/ProximaNovaSemibold.ttf') format('truetype');
+}
+
+ @font-face {
+    font-family: 'html5-HelveticaMonospacedPro';
+    font-weight: normal;
+    font-style: normal;
+    src: url('fonts/helvetica_monospaced_pro/HelveticaMonospacedPro.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'html5-EikonFont';
+    src: url('fonts/eikon/EikonFont.eot?-c9g7be');
+    src: url('fonts/eikon/EikonFont.eot?#iefix-c9g7be') format('embedded-opentype'),
+        url('fonts/eikon/EikonFont.woff?-c9g7be') format('woff'),
+        url('fonts/eikon/EikonFont.ttf?-c9g7be') format('truetype'),
+        url('fonts/eikon/EikonFont.svg?-c9g7be#EikonFont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.html5-alert-tooltip {
+    display: none;
+    padding: 5px 8px;
+    background-color: #4a4a52;
+    border: 1px solid #000000;
+    position: absolute;
+    z-index: 100;
+    font-size: 11px;
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.6);
+    -box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.6);
+}
+
+.html5-alert-tooltip-text {
+    color: #c2c2c2;
+}
+
+.html5-textbox {
+    margin: 0;
+    padding:  0 5px;
+    box-sizing: border-box;
+    color:  #c2c2c2;
+    background:  #000000;
+    border:  1px solid #4a4a52;
+    font-family: inherit;
+    font-size: 12px;
+    cursor:  auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    -webkit-user-select: text;
+    -webkit-rtl-ordering: logical;
+    -webkit-appearance: none;
+    -webkit-writing-mode: horizontal-tb;
+}
+
+.html5-textbox:focus {
+    border: 1px dotted #ff9933;
+}
+
+::selection {
+    color: #000000;
+    background: #ff9933;
+}
